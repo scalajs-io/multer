@@ -11,7 +11,6 @@ It is written on top of busboy for maximum efficiency.
 
 ### Build Dependencies
 
-* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
 ### Build/publish the SDK locally
@@ -86,7 +85,7 @@ app.post("/cool-profile", cpUpload, (req: Request, res: Response, next: js.Funct
 To add the `Multer` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "multer" % "1.3.0"
+libraryDependencies += "io.scalajs.npm" %%% "multer" % "1.3.0-2"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
