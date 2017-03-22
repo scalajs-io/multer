@@ -85,7 +85,7 @@ app.post("/cool-profile", cpUpload, (req: Request, res: Response, next: js.Funct
 To add the `Multer` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "multer" % "1.3.0-3"
+libraryDependencies += "io.scalajs.npm" %%% "multer" % "1.3.0-4"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
