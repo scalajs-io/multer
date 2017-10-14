@@ -1,7 +1,7 @@
 package io.scalajs.npm.express.multer
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * Multer accepts an options object, the most basic of which is the dest property, which tells Multer where to upload
@@ -15,7 +15,7 @@ import scala.scalajs.js.annotation.ScalaJSDefined
   * The following are the options that can be passed to Multer.
   * @author lawrence.daniels@gmail.com
   */
-@ScalaJSDefined
+
 class MulterOptions(var dest: js.UndefOr[String] = js.undefined,
                     var limits: js.UndefOr[MulterLimits] = js.undefined,
                     var includeEmptyFields: js.UndefOr[Boolean] = js.undefined,

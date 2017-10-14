@@ -1,7 +1,7 @@
 package io.scalajs.npm.express.multer
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * An object specifying the size limits of the following optional properties. This object is passed to busboy directly,
@@ -15,7 +15,7 @@ import scala.scalajs.js.annotation.ScalaJSDefined
   * @param headerPairs   For multipart forms, the max number of header key=>value pairs to parse Default: 2000 (same as node's http).
   * @author lawrence.daniels@gmail.com
   */
-@ScalaJSDefined
+
 class MulterLimits(var fieldNameSize: js.UndefOr[Int],
                    var fieldSize: js.UndefOr[Int],
                    var fields: js.UndefOr[Int],
